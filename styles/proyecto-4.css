@@ -17,6 +17,7 @@
   --tag-color: #0000CD;
   --tag-name-color: #A52A2A;
   --tag-attribute-color: #FF0000;
+  --tag-valor-color: #1C77C1;
   --tag-full-color: #A52A2A;
 
   font-size: 62.5%;
@@ -39,6 +40,10 @@ li {
 
 a {
   text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
 }
 
 
@@ -208,6 +213,10 @@ a {
 
 .tag__attribute-color {
   color: var(--tag-attribute-color);
+}
+
+.tag__valor-color {
+  color: var(--tag-valor-color);
 }
 
 .tag__full-color {

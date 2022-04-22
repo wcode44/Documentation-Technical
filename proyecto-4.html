@@ -89,16 +89,29 @@
       <!-- SECCION: ELEMENTOS -->
       <section id="elementos_html" class="main-section">
         <header class="section__header">Elementos HTML</header>
-        <p class="section__parrafo-1">Un elemento HTML se define mediante una etiqueta de inicio, algo de contenido y una etiqueta de finalización.</p>
 
-        <p class="section__parrafo-2"><span class="tag__color">&lt;</span>&nbsp;<span class="tag__name-color">nombre de la etiqueta</span>&nbsp;<span class="tag__color">&gt;</span>&nbsp;El contenido va aquí...&nbsp;<span class="tag__color">&lt;/</span>&nbsp;<span class="tag__name-color">nombre de la etiqueta</span>&nbsp;<span class="tag__color">&gt;</span></p>
+        <p class="section__parrafo-1">
+          Un elemento HTML se define mediante una etiqueta de inicio, algo de contenido y una etiqueta de finalización.
+        </p>
 
-        <p class="section__parrafo-1">Ejemplos de algunos elementos HTML:</p>
-        <p class="section__parrafo-2"><span class="tag__color">&lt;</span>&nbsp;<span class="tag__name-color">h1</span>&nbsp;<span class="tag__color">&gt;</span>&nbsp;Mi primer encabezado&nbsp;<span class="tag__color">&lt;/</span><span class="tag__name-color">h1</span><span class="tag__color">&gt;</span><br><span class="tag__color">&lt;</span>&nbsp;<span class="tag__name-color">p</span>&nbsp;<span class="tag__color">&gt;</span>&nbsp;Mi primer párrafo.&nbsp;<span class="tag__color">&lt;/</span><span class="tag__name-color">p</span><span class="tag__color">&gt;</span></p>
+        <p class="section__parrafo-2">
+          <span class="tag__color">&lt;</span>&nbsp;<span class="tag__name-color">nombre de la etiqueta</span>&nbsp;<span class="tag__color">&gt;</span>&nbsp;El contenido va aquí...&nbsp;<span class="tag__color">&lt;/</span>&nbsp;<span class="tag__name-color">nombre de la etiqueta</span>&nbsp;<span class="tag__color">&gt;</span>
+        </p>
+
+        <p class="section__parrafo-1">
+          Ejemplos de algunos elementos HTML:
+        </p>
+        <p class="section__parrafo-2">
+          <span class="tag__color">&lt;</span>&nbsp;<span class="tag__name-color">h1</span>&nbsp;<span class="tag__color">&gt;</span>&nbsp;Mi primer encabezado&nbsp;<span class="tag__color">&lt;/</span><span class="tag__name-color">h1</span><span class="tag__color">&gt;</span><br><span class="tag__color">&lt;</span>&nbsp;<span class="tag__name-color">p</span>&nbsp;<span class="tag__color">&gt;</span>&nbsp;Mi primer párrafo.&nbsp;<span class="tag__color">&lt;/</span><span class="tag__name-color">p</span><span class="tag__color">&gt;</span>
+        </p>
 
         <h3 class="subtitle-1">Elementos HTML vacíos</h3>
-        <p class="section__parrafo-1">Los elementos HTML sin contenido se denominan elementos vacíos.</p>
-        <p class="section__parrafo-1">La <code class="tag__full-color">&lt;br&gt;</code> etiqueta define un salto de línea y es un elemento vacío sin una etiqueta de cierre:</p>
+        <p class="section__parrafo-1">
+          Los elementos HTML sin contenido se denominan elementos vacíos.
+        </p>
+        <p class="section__parrafo-1">
+          La <code class="tag__full-color">&lt;br&gt;</code> etiqueta define un salto de línea y es un elemento vacío sin una etiqueta de cierre:
+        </p>
 
         <div class="container__code">
           <h4 class="subtitle-2">Ejemplo</h4>
@@ -110,11 +123,118 @@
         </div>
 
         <h3 class="subtitle-1">HTML no distingue entre mayúsculas y minúsculas</h3>
-        <p class="section__parrafo-1">Las etiquetas HTML no distinguen entre mayúsculas y minúsculas: <code class="tag__full-color">&lt;P&gt;</code> significa lo mismo que <code class="tag__full-color">&lt;p&gt;</code>.</p>
-        <p class="section__parrafo-1">El estándar HTML no requiere etiquetas en minúsculas, pero W3C recomienda minúsculas en HTML y exige minúsculas para tipos de documentos más estrictos como XHTML.</p>
+        <p class="section__parrafo-1">
+          Las etiquetas HTML no distinguen entre mayúsculas y minúsculas: <code class="tag__full-color">&lt;P&gt;</code> significa lo mismo que <code class="tag__full-color">&lt;p&gt;</code>.
+        </p>
+        <p class="section__parrafo-1">
+          El estándar HTML no requiere etiquetas en minúsculas, pero W3C recomienda minúsculas en HTML y exige minúsculas para tipos de documentos más estrictos como XHTML.
+        </p>
       </section>
 
-      
+      <!-- SECCION ATRIBUTOS -->
+      <section id="elementos_html" class="main-section">
+        <header class="section__header">Atributos HTML</header>
+
+        <ul class="section__list">
+          <li>Todos los elementos HTML pueden tener <strong>atributos</strong>.</li>
+          <li>Los atributos proporcionan <strong>información adicional</strong> sobre los elementos.</li>
+          <li>Los atributos siempre se especifican en <strong>la etiqueta de inicio</strong>.</li>
+          <li>Los atributos generalmente vienen en pares de nombre/valor como: <strong>nombre="valor"</strong></li>
+        </ul>
+
+        <h3 class="subtitle-1">El atributo href</h3>
+        <p class="section__parrafo-1">
+          La <code class="tag__full-color">&lt;a&gt;</code> etiqueta define un hipervínculo. El <code class="tag__full-color">href</code> atributo especifica la URL de la página a la que va el enlace:
+        </p>
+
+        <div class="container__code">
+          <h4 class="subtitle-2">Ejemplo</h4>
+          <div class="code">
+            <code>
+              <span class="tag__color">&lt;</span><span class="tag__name-color">a</span>&nbsp;<span class="tag__attribute-color">href=</span><span class="tag__valor-color">"https://www.link.com"</span><span class="tag__color">&gt;</span><br>&nbsp;&nbsp;&nbsp;Visit W3Schools<br><span class="tag__color">&lt;/</span><span class="tag__name-color">a</span><span class="tag__color">&gt;</span>
+            </code>
+          </div>
+        </div>
+
+        <h3 class="subtitle-1">El atributo src</h3>
+        <p class="section__parrafo-1">
+          La <code class="tag__full-color">&lt;img&gt;</code> etiqueta se utiliza para incrustar una imagen en una página HTML. El <code class="tag__full-color">src</code> atributo especifica la ruta a la imagen que se va a mostrar:
+        </p>
+
+        <div class="container__code">
+          <h4 class="subtitle-2">Ejemplo</h4>
+          <div class="code">
+            <code>
+              <span class="tag__color">&lt;</span><span class="tag__name-color">img</span>&nbsp;<span class="tag__attribute-color">src=</span><span class="tag__valor-color">"img_girl.jpg"</span><span class="tag__color">&gt;</span>
+            </code>
+          </div>
+        </div>
+
+        <p class="section__parrafo-1">
+          Hay dos formas de especificar la URL en el <code class="tag__full-color">src</code> atributo:
+        </p>
+        <ol class="section__list">
+          <li>
+            <strong>URL absoluta:</strong>&nbsp;enlaces a una imagen externa alojada en otro sitio web. Ejemplo: src="https://www.w3schools.com/images/img_girl.jpg" .
+          </li>
+          <li>
+            <strong>URL relativa:</strong>&nbsp;enlaces a una imagen alojada en el sitio web. Aquí, la URL no incluye el nombre de dominio. Si la URL comienza sin una barra inclinada, será relativa a la página actual. Ejemplo: src="img_girl.jpg". Si la URL comienza con una barra inclinada, será relativa al dominio. Ejemplo: src="/images/img_girl.jpg".
+          </li>
+        </ol>
+
+        <h3 class="subtitle-1">El atributo alt</h3>
+        <p class="section__parrafo-1">
+          El <code class="tag__full-color">alt</code> altatributo requerido para la <code class="tag__full-color">&lt;img&gt;</code> etiqueta especifica un texto alternativo para una imagen, si la imagen por algún motivo no se puede mostrar. Esto puede deberse a una conexión lenta, a un error en el <code class="tag__full-color">src</code> atributo, o si el usuario usa un lector de pantalla.
+        </p>
+
+        <div class="container__code">
+          <h4 class="subtitle-2">Ejemplo</h4>
+          <div class="code">
+            <span class="tag__color">&lt;</span><span class="tag__name-color">img</span>&nbsp;<span class="tag__attribute-color">src=</span><span class="tag__valor-color">"img_girl.jpg"</span>&nbsp;<span class="tag__attribute-color">alt=</span><span class="tag__valor-color">"Girl with a jacket"</span><span class="tag__color">&gt;</span>
+          </div>
+        </div>
+
+        <h3 class="subtitle-1">El atributo style</h3>
+        <p class="section__parrafo-1">
+          El <code class="tag__full-color">style</code> atributo se usa para agregar estilos a un elemento, como color, fuente, tamaño y más.
+        </p>
+
+        <div class="container__code">
+          <h4 class="subtitle-2">Ejemplo</h4>
+          <div class="code">
+            <span class="tag__color">&lt;</span><span class="tag__name-color">p</span>&nbsp;<span class="tag__attribute-color">style=</span><span class="tag__valor-color">"color:red;"</span><span class="tag__color">&gt;</span>This is a red paragraph.<span class="tag__color">&lt;/</span><span class="tag__name-color">p</span><span class="tag__color">&gt;</span>
+          </div>
+        </div>
+
+        <h3 class="subtitle-1">El atributo lang</h3>
+        <p class="section__parrafo-1">
+          Siempre debe incluir el atributo <code class="tag__full-color">lang</code> dentro de la etiqueta <code class="tag__full-color">&lt;html&gt;</code>, para declarar el idioma de la página web. Esto está destinado a ayudar a los motores de búsqueda y navegadores.
+        </p>
+
+        <div class="container__code">
+          <h4 class="subtitle-2">Ejemplo</h4>
+          <div class="code">
+            <span class="tag__color">&lt;</span><span class="tag__name-color">!DOCTYPE</span>&nbsp;<span class="tag__attribute-color">html</span><span class="tag__color">&gt;</span><br><span class="tag__color">&lt;</span><span class="tag__name-color">html</span>&nbsp;<span class="tag__attribute-color">lang=</span><span class="tag__valor-color">"es"</span><span class="tag__color">&gt;</span><br><span class="tag__color">&lt;</span><span class="tag__name-color">body</span><span class="tag__color">&gt;</span><br>- - -<br><span class="tag__color">&lt;/</span><span class="tag__name-color">body</span><span>&gt;</span><br><span class="tag__color">&lt;/</span><span class="tag__name-color">html</span><span class="tag__color">&gt;</span>
+          </div>
+        </div>
+
+        <h3 class="subtitle-1">El atributo title</h3>
+        <p class="section__parrafo-1">
+          El atributo <code class="tag__full-color">title</code> define alguna información adicional sobre un elemento.
+        </p>
+        <p class="section__parrafo-1">
+          El valor del atributo de título se mostrará como información sobre herramientas cuando pase el mouse sobre el elemento:
+        </p>
+
+        <div class="container__code">
+          <h4 class="subtitle-2">Ejemplo</h4>
+          <div class="code">
+            <span class="tag__color">&lt;</span><span class="tag__name-color">p</span>&nbsp;<span class="tag__attribute-color">title=</span><span class="tag__valor-color">"I'm a tooltip"</span><span class="tag__color">&gt;</span>This is a paragraph.<span class="tag__color">&lt;/</span><span class="tag__name-color">p</span><span class="tag__color">&gt;</span>
+          </div>
+        </div>
+
+      </section>
+
     </main>
   </div>
 </body>
