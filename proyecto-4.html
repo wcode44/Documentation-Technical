@@ -1,3 +1,9 @@
+<!-- =======================================
+
+  DOCUMENTATION TECHNICAL - FREECODECAMP
+
+============================================ -->
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -26,9 +32,30 @@
           <img src="./images/menu.svg" alt="menu" />
         </label>
         <ul class="menu">
-          <li><a href="#" class="nav-link">ITEM 1</a></li>
-          <li><a href="#" class="nav-link">ITEM 2</a></li>
-          <li><a href="#" class="nav-link">ITEM 3</a></li>
+          <li>
+            <a href="#introduccion" class="nav-link">Introducción</a>
+          </li>
+          <li>
+            <a href="#elementos_html" class="nav-link">Elementos</a>
+          </li>
+          <li>
+            <a href="#atributos_html" class="nav-link">Atributos</a>
+          </li>
+          <li>
+            <a href="#encabezados_html" class="nav-link">Encabezados</a>
+          </li>
+          <li>
+            <a href="#parrafos_html" class="nav-link">Párrafos</a>
+          </li>
+          <li>
+            <a href="#enlaces_html" class="nav-link">Enlaces</a>
+          </li>
+          <li>
+            <a href="#comentarios_html" class="nav-link">Comentarios</a>
+          </li>
+          <li>
+            <a href="#referencia" class="nav-link">Referencia</a>
+          </li>
         </ul>
       </div>
 
@@ -36,7 +63,6 @@
 
     <!-- CONTENIDO PRINCIPAL -->
     <main id="main-doc" class="main-doc">
-
       <!-- SECCION: INTRODUCCION -->
       <section id="introduccion" class="main-section">
 
@@ -72,13 +98,13 @@
 
         <h4 class="subtitle-2">Ejemplo explicado</h4>
         <ul class="section__list">
-          <li>La <code class="tag__full-color">&lt;!DOCTYPE html&gt;</code> declaración define que este documento es un documento HTML5.</li>
-          <li>El <code class="tag__full-color">&lt;html&gt;</code> elemento es el elemento raíz de una página HTML.</li>
-          <li>El <code class="tag__full-color">&lt;head&gt;</code> elemento contiene metainformación sobre la página HTML.</li>
-          <li>El <code class="tag__full-color">&lt;title&gt;</code> elemento especifica un título para la página HTML (que se muestra en la barra de título del navegador o en la pestaña de la página).</li>
-          <li>El <code class="tag__full-color">&lt;body&gt;</code> elemento define el cuerpo del documento y es un contenedor de todos los contenidos visibles, como encabezados, párrafos, imágenes, hipervínculos, tablas, listas, etc.</li>
-          <li>El <code class="tag__full-color">&lt;h1&gt;</code> elemento define un encabezado grande.</li>
-          <li>El <code class="tag__full-color">&lt;p&gt;</code> elemento define un párrafo.</li>
+          <li>La declaración <code class="tag__full-color">&lt;!DOCTYPE html&gt;</code> define que este documento es un documento HTML5.</li>
+          <li>El elemento <code class="tag__full-color">&lt;html&gt;</code> es el elemento raíz de una página HTML.</li>
+          <li>El elemento <code class="tag__full-color">&lt;head&gt;</code> contiene metainformación sobre la página HTML.</li>
+          <li>El elemento <code class="tag__full-color">&lt;title&gt;</code> especifica un título para la página HTML (que se muestra en la barra de título del navegador o en la pestaña de la página).</li>
+          <li>El elemento <code class="tag__full-color">&lt;body&gt;</code> define el cuerpo del documento y es un contenedor de todos los contenidos visibles, como encabezados, párrafos, imágenes, hipervínculos, tablas, listas, etc.</li>
+          <li>El elemento <code class="tag__full-color">&lt;h1&gt;</code> define un encabezado grande.</li>
+          <li>El elemento <code class="tag__full-color">&lt;p&gt;</code> define un párrafo.</li>
         </ul>
       </section>
 
@@ -126,7 +152,7 @@
       </section>
 
       <!-- SECCION ATRIBUTOS -->
-      <section id="elementos_html" class="main-section">
+      <section id="atributos_html" class="main-section">
         <header class="section__header">Atributos HTML</header>
 
         <ul class="section__list">
@@ -138,7 +164,7 @@
 
         <h3 class="subtitle-1">El atributo href</h3>
         <p class="section__parrafo-1">
-          La <code class="tag__full-color">&lt;a&gt;</code> etiqueta define un hipervínculo. El <code class="tag__full-color">href</code> atributo especifica la URL de la página a la que va el enlace:
+          La etiqueta <code class="tag__full-color">&lt;a&gt;</code> define un hipervínculo. El atributo <code class="tag__full-color">href</code> especifica la URL de la página a la que va el enlace:
         </p>
 
         <div class="container__code">
@@ -150,7 +176,7 @@
 
         <h3 class="subtitle-1">El atributo src</h3>
         <p class="section__parrafo-1">
-          La <code class="tag__full-color">&lt;img&gt;</code> etiqueta se utiliza para incrustar una imagen en una página HTML. El <code class="tag__full-color">src</code> atributo especifica la ruta a la imagen que se va a mostrar:
+          La etiqueta <code class="tag__full-color">&lt;img&gt;</code> se utiliza para incrustar una imagen en una página HTML. El atributo <code class="tag__full-color">src</code> especifica la ruta a la imagen que se va a mostrar:
         </p>
 
         <div class="container__code">
@@ -161,7 +187,7 @@
         </div>
 
         <p class="section__parrafo-1">
-          Hay dos formas de especificar la URL en el <code class="tag__full-color">src</code> atributo:
+          Hay dos formas de especificar la URL en el atributo <code class="tag__full-color">src</code>:
         </p>
         <ol class="section__list">
           <li>
@@ -174,7 +200,7 @@
 
         <h3 class="subtitle-1">El atributo alt</h3>
         <p class="section__parrafo-1">
-          El <code class="tag__full-color">alt</code> altatributo requerido para la <code class="tag__full-color">&lt;img&gt;</code> etiqueta especifica un texto alternativo para una imagen, si la imagen por algún motivo no se puede mostrar. Esto puede deberse a una conexión lenta, a un error en el <code class="tag__full-color">src</code> atributo, o si el usuario usa un lector de pantalla.
+          El atributo <code class="tag__full-color">alt</code> requerido para la etiqueta <code class="tag__full-color">&lt;img&gt;</code> especifica un texto alternativo para una imagen, si la imagen por algún motivo no se puede mostrar. Esto puede deberse a una conexión lenta, a un error en el atributo <code class="tag__full-color">src</code>, o si el usuario usa un lector de pantalla.
         </p>
 
         <div class="container__code">
@@ -186,7 +212,7 @@
 
         <h3 class="subtitle-1">El atributo style</h3>
         <p class="section__parrafo-1">
-          El <code class="tag__full-color">style</code> atributo se usa para agregar estilos a un elemento, como color, fuente, tamaño y más.
+          El atributo <code class="tag__full-color">style</code> se usa para agregar estilos a un elemento, como color, fuente, tamaño y más.
         </p>
 
         <div class="container__code">
@@ -225,7 +251,7 @@
       </section>
 
       <!-- Seccion Encabezados HTML -->
-      <section class="main-section">
+      <section id="encabezados_html" class="main-section">
         <header class="section__header">Encabezados HTML</header>
         <p class="section__parrafo-1">
           Los encabezados HTML son títulos o subtítulos que desea mostrar en una página web.
@@ -273,7 +299,7 @@
       </section>
 
       <!-- Parrafos HTML -->
-      <section class="main-section">
+      <section id="parrafos_html" class="main-section">
         <header class="section__header">Párrafos HTML</header>
         <ul class="section__list">
           <li>El elemento HTML <code class="tag__full-color">&lt;p&gt;</code> define un párrafo.</li>
@@ -290,13 +316,13 @@
         <h3 class="subtitle-1">Reglas horizontales HTML</h3>
         <ul class="section__list">
           <li>
-            La <code class="tag__full-color">&lt;hr&gt;</code> etiqueta define una ruptura temática en una página HTML y, con mayor frecuencia, se muestra como una regla horizontal.
+            La etiqueta <code class="tag__full-color">&lt;hr&gt;</code> define una ruptura temática en una página HTML y, con mayor frecuencia, se muestra como una regla horizontal.
           </li>
           <li>
-            El <code class="tag__full-color">&lt;hr&gt;</code> elemento se usa para separar el contenido (o definir un cambio) en una página HTML.
+            El elemento <code class="tag__full-color">&lt;hr&gt;</code> se usa para separar el contenido (o definir un cambio) en una página HTML.
           </li>
           <li>
-            La <code class="tag__full-color">&lt;hr&gt;</code> etiqueta es una etiqueta vacía, lo que significa que no tiene una etiqueta final.
+            La etiqueta <code class="tag__full-color">&lt;hr&gt;</code> es una etiqueta vacía, lo que significa que no tiene una etiqueta final.
           </li>
         </ul>
 
@@ -328,6 +354,138 @@
         </div>
       </section>
 
+      <!-- Enlaces HTML -->
+      <section id="enlaces_html" class="main-section">
+        <header class="section__header">Enlaces HTML</header>
+        <p class="section__parrafo-1">
+          Los enlaces se encuentran en casi todas las páginas web. Los enlaces permiten a los usuarios hacer clic para pasar de una página a otra.
+        </p>
+
+        <h3 class="subtitle-1">Vínculos HTML - Hipervínculos</h3>
+        <ul class="section__list">
+          <li>
+            Los enlaces HTML son hipervínculos.
+          </li>
+          <li>
+            Puede hacer clic en un enlace y saltar a otro documento.
+          </li>
+          <li>
+            Cuando mueva el mouse sobre un enlace, la flecha del mouse se convertirá en una pequeña mano.
+          </li>
+        </ul>
+
+        <h3 class="subtitle-1">Enlaces HTML - Sintaxis</h3>
+        <p class="section__parrafo-1">
+          La etiqueta HTML <code class="tag__full-color">&lt;a&gt;</code> define un hipervínculo. Tiene la siguiente sintaxis:
+        </p>
+
+        <div class="container__code">
+          <div class="code">
+            <span class="tag__color">&lt;</span><span class="tag__name-color">a</span>&nbsp;<span class="tag__attribute-color">href=</span><span class="tag__valor-color">"url"</span><span class="tag__color">&gt;</span>Texto del enlace<span class="tag__color">&lt;/</span><span class="tag__name-color">a</span><span class="tag__color">&gt;</span>
+          </div>
+        </div>
+
+        <ul class="section__list">
+          <li>
+            El atributo más importante del elemento <code class="tag__full-color">&lt;a&gt;</code> es el atributo <code class="tag__full-color">href</code>, que indica el destino del enlace.
+          </li>
+          <li>
+            El <em>texto del enlace</em> es la parte que será visible para el lector.
+          </li>
+          <li>
+            Al hacer clic en el texto del enlace, se enviará al lector a la dirección URL especificada.
+          </li>
+        </ul>
+
+        <h3 class="subtitle-1">Enlaces HTML: el atributo de destino</h3>
+        <p class="section__parrafo-1">
+          De forma predeterminada, la página vinculada se mostrará en la ventana actual del navegador. Para cambiar esto, debe especificar otro destino para el vínculo.
+        </p>
+
+        <p class="section__parrafo-1">
+          El atributo <code class="tag__full-color">target</code> especifica dónde abrir el documento vinculado.
+        </p>
+
+        <p class="section__parrafo-1">
+          El atributo <code class="tag__full-color">target</code> puede tener uno de los siguientes valores:
+        </p>
+
+        <ul class="section__list">
+          <li>
+            <code class="tag__full-color">_self</code> - Defecto. Abre el documento en la misma ventana/pestaña en la que se hizo clic.
+          </li>
+          <li>
+            <code class="tag__full-color">_blank</code> - Abre el documento en una nueva ventana o pestaña.
+          </li>
+          <li>
+            <code class="tag__full-color">_parent</code> - Abre el documento en el marco principal.
+          </li>
+          <li>
+            <code class="tag__full-color">_top</code> - Abre el documento en el cuerpo completo de la ventana.
+          </li>
+        </ul>
+
+        <div class="container__code">
+          <h4 class="subtitle-2">Ejemplo</h4>
+          <div class="code">
+            <span class="tag__color">&lt;</span><span class="tag__name-color">a</span>&nbsp;<span class="tag__attribute-color">href=</span><span class="tag__valor-color">"url"</span>&nbsp;<span class="tag__attribute-color">target=</span><span class="tag__valor-color">"_blank"</span><span class="tag__color">&gt;</span>Texto del enlace<span class="tag__color">&lt;/</span><span class="tag__name-color">a</span><span class="tag__color">&gt;</span>
+          </div>
+        </div>
+
+        <h3 class="subtitle-1">URL absolutas frente a URL relativas</h3>
+        <p class="section__parrafo-1">
+          Ambos ejemplos anteriores usan una URL absoluta (una dirección web completa) en el atributo <code class="tag__full-color">href</code>.
+        </p>
+
+        <p class="section__parrafo-1">
+          Un enlace local (un enlace a una página dentro del mismo sitio web) se especifica con una URL relativa (sin la parte "https://www"):
+        </p>
+
+        <div class="container__code">
+          <h4 class="subtitle-2">Ejemplo</h4>
+          <div class="code">
+            <span class="tag__color">&lt;</span><span class="tag__name-color">h2</span><span class="tag__color">&gt;</span>Absolute URLs<span class="tag__color">&lt;/</span><span class="tag__name-color">h2</span><span class="tag__color">&gt;</span><br><span class="tag__color">&lt;</span><span class="tag__name-color">p</span><span class="tag__color">&gt;</span><span class="tag__color">&lt;</span><span class="tag__name-color">a</span>&nbsp;<span class="tag__attribute-color">href=</span><span class="tag__valor-color">"www.my-url"</span><span class="tag__color">&gt;</span>Texto del enlace<span class="tag__color">&lt;/</span><span class="tag__name-color">a</span><span class="tag__color">&gt;</span><span class="tag__color">&lt;/</span><span class="tag__name-color">p</span><span class="tag__color">&gt;</span><br><br><span class="tag__color">&lt;</span><span class="tag__name-color">h2</span><span class="tag__color">&gt;</span>Relative URLs<span class="tag__color">&lt;/</span><span class="tag__name-color">h2</span><span class="tag__color">&gt;</span><br><span class="tag__color">&lt;</span><span class="tag__name-color">p</span><span class="tag__color">&gt;</span><span class="tag__color">&lt;</span><span class="tag__name-color">a</span>&nbsp;<span class="tag__attribute-color">href=</span><span class="tag__valor-color">"./css/style.css"</span><span class="tag__color">&gt;</span>Texto del enlace<span class="tag__color">&lt;/</span><span class="tag__name-color">a</span><span class="tag__color">&gt;</span><span class="tag__color">&lt;/</span><span class="tag__name-color">p</span><span class="tag__color">&gt;</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Comentarios HTML -->
+      <section id="comentarios_html" class="main-section">
+        <header class="section__header">Comentarios HTML</header>
+        <ul class="section__list">
+          <li>
+            Los comentarios HTML no se muestran en el navegador, pero pueden ayudar a documentar su código fuente HTML.
+          </li>
+          <li>
+            Con los comentarios puedes colocar notificaciones y recordatorios en tu código HTML.
+          </li>
+          <li>
+            Los comentarios se pueden utilizar para ocultar contenido.
+          </li>
+          <li>
+            Los comentarios también son excelentes para depurar HTML, ya que puede comentar líneas de código HTML, una a la vez, para buscar errores.
+          </li>
+        </ul>
+
+        <h3 class="subtitle-1">Etiqueta de comentario HTML</h3>
+        <p class="section__parrafo-1">
+          Puede agregar comentarios a su fuente HTML usando la siguiente sintaxis:
+        </p>
+
+        <div class="container__code">
+          <div class="code">
+            <p class="tag__comment">&lt;!-- Escribe el comentario aquí --&gt;</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seccion Referencia -->
+      <section id="referencia" class="main-section">
+        <header class="section__header">Referencia</header>
+        <p class="section__parrafo-1">
+          Toda la Documentación de está página ha sido tomada de <a href="https://www.w3schools.com/html/default.asp" target="_blank">W3School</a>.
+        </p>
+      </section>
     </main>
   </div>
 </body>

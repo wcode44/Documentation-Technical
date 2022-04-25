@@ -19,6 +19,7 @@
   --tag-attribute-color: #FF0000;
   --tag-valor-color: #1C77C1;
   --tag-full-color: #A52A2A;
+  --tag-comment: #2C8235;
 
   font-size: 62.5%;
 }
@@ -50,6 +51,7 @@ strong {
 
 /* CONTENEDOR PRINCIPAL */
 .wrapper {
+  max-width: 100vw;
   display: grid;
   grid-template-rows: 7rem auto;
 }
@@ -57,7 +59,6 @@ strong {
 
 
 /* BARRA DE NAVEGACION */
-/* NO TOCAR */
 .navbar {
   grid-row: 1 / 2;
   padding: 0 1rem;
@@ -116,7 +117,7 @@ strong {
   padding: 2.3rem 0;
   border-top: .1rem solid var(--color-black);
 
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   text-align: center;
   color: var(--color-white);
 }
@@ -124,14 +125,6 @@ strong {
 .interruptor:checked ~ .menu {
   right: 0;
 }
-/* NO TOCAR */
-
-
-
-
-
-
-
 
 
 
@@ -166,9 +159,9 @@ strong {
 }
 
 .section__parrafo-1 {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   letter-spacing: .03rem;
-  line-height: 1.8rem;
+  line-height: 2rem;
 }
 
 .section__parrafo-2 {
@@ -184,7 +177,7 @@ strong {
 
 .section__list li{
   list-style-type: disc;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   letter-spacing: .03rem;
   line-height: 1.8rem;
 }
@@ -223,16 +216,9 @@ strong {
   color: var(--tag-full-color);
 }
 
-
-
-
-
-
-
-
-
-
-
+.tag__comment {
+  color: var(--tag-comment);
+}
 
 
 
@@ -246,7 +232,12 @@ strong {
   .interruptor:checked ~ .menu {
     right: 60%;
   }
+
+  .main-doc {
+    padding: 3rem 5rem;
+  }
 }
+
 
 
 @media ( min-width: 1000px ) {
@@ -261,6 +252,7 @@ strong {
   .main-doc {
     grid-column: 2 / 3;
     grid-row: 1 / 3;
+    padding: 6rem;
   }
 
   .btn-menu {
